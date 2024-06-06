@@ -46,8 +46,8 @@ function chatStripe(isAi, value, uniqueId) {
       <div class="chat">
         <div class="profile">
           <img 
-            src="${isAi ? "Lumina:" : "You"}"
-            alt="${isAi ? 'Lumina' : 'You'}"
+            src="${isAi ? "./assets/mainlogo.svg" : "./assets/user.svg"}"
+            alt="${isAi ? 'Lumina' : 'user'}"
           />
         </div>
         <div class="message" id=${uniqueId}>${value}</div>
