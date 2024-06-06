@@ -2,10 +2,11 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://sephhsephh.github.io/LuminaAI_CHAT/",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview"
   },
   "devDependencies": {
